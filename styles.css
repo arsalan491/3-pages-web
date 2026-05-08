@@ -1,14 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&display=swap');
 
 :root {
-  --bg: #0b0f1a;
-  --card: #141a2b;
-  --accent: #6ee7ff;
-  --accent-2: #8b5cf6;
-  --text: #f5f7ff;
-  --muted: #aab2d5;
-  --border: rgba(255, 255, 255, 0.08);
-  --shadow: 0 20px 60px rgba(15, 23, 42, 0.4);
+  --bg: #f7f8fc;
+  --card: #ffffff;
+  --accent: #2563eb;
+  --accent-2: #06b6d4;
+  --text: #0f172a;
+  --muted: #64748b;
+  --border: rgba(15, 23, 42, 0.12);
+  --shadow: 0 20px 60px rgba(15, 23, 42, 0.12);
 }
 
 * {
@@ -30,8 +30,8 @@ a {
 }
 
 .site-header {
-  background: radial-gradient(circle at top left, rgba(139, 92, 246, 0.35), transparent 45%),
-    radial-gradient(circle at top right, rgba(110, 231, 255, 0.25), transparent 45%);
+  background: radial-gradient(circle at top left, rgba(37, 99, 235, 0.18), transparent 45%),
+    radial-gradient(circle at top right, rgba(6, 182, 212, 0.18), transparent 45%);
   padding: 2.5rem 6vw 3rem;
 }
 
@@ -71,7 +71,7 @@ a {
   padding: 0.7rem 1.2rem;
   border-radius: 999px;
   border: 1px solid var(--border);
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(15, 23, 42, 0.04);
 }
 
 .hero {
@@ -124,7 +124,7 @@ button.primary {
 
 .primary {
   background: linear-gradient(120deg, var(--accent), var(--accent-2));
-  color: #0b0f1a;
+  color: #ffffff;
 }
 
 .ghost {
@@ -207,7 +207,7 @@ main {
 }
 
 .accent {
-  background: rgba(255, 255, 255, 0.03);
+  background: rgba(15, 23, 42, 0.04);
   padding: 2.5rem;
   border-radius: 28px;
 }
@@ -219,7 +219,7 @@ main {
 }
 
 .callout {
-  background: linear-gradient(120deg, rgba(110, 231, 255, 0.2), rgba(139, 92, 246, 0.2));
+  background: linear-gradient(120deg, rgba(37, 99, 235, 0.12), rgba(6, 182, 212, 0.12));
   border-radius: 24px;
   padding: 2.5rem;
   text-align: center;
@@ -260,7 +260,7 @@ form label {
 input,
 select,
 textarea {
-  background: rgba(255, 255, 255, 0.05);
+  background: rgba(15, 23, 42, 0.04);
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 0.75rem 0.9rem;
@@ -272,7 +272,7 @@ textarea {
 }
 
 .highlight {
-  background: rgba(255, 255, 255, 0.04);
+  background: rgba(15, 23, 42, 0.04);
   border-radius: 16px;
   padding: 1.2rem;
 }
